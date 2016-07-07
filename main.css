@@ -1,7 +1,9 @@
+/********** CLASSES **********/
+
 .category {
   text-align: center;
   font-size: 2em;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-bottom: 25px;
   border-style: solid;
 }
@@ -11,18 +13,12 @@
   margin-top: 100px;
 }
 
-footer {
-  text-align: center;
-}
+/********** ELEMENTS **********/
 
 body {
   background-size: 100%;
   color: white;
-}
-
-h1  {
-  font-size: 3em;
-  text-align: center;
+  font-family: sans-serif;
 }
 
 header {
@@ -31,12 +27,34 @@ header {
   margin-right: auto;
 }
 
+h1  {
+  font-size: 3em;
+  text-align: center;
+}
+
+h5 {
+  font-style: italic;
+}
+
+p {
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 20px;
+}
+
 li {
   list-style: none;
   margin-right: 5%;
 }
 
+footer {
+  text-align: center;
+}
+
+/********** IMAGES **********/
+
 img {
+  max-width: 75%;
   margin: 0 auto;
   display: block;
 }
