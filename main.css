@@ -44,6 +44,11 @@
 
 form {
   text-align: center;
+
+}
+
+fieldset {
+  border: none;
 }
 
 input {
