@@ -3,12 +3,16 @@
   display: none;
 }
 
-.category {
+.category h1{
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 50px;
   margin-bottom: 25px;
   border-style: solid;
+  border-radius: 10px;
+  border-image: -webkit-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
+  border-image: -ms-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
+  border-image: -moz-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
 }
 
 .mainFooter {
@@ -16,10 +20,35 @@
   margin-top: 100px;
 }
 
+.tiny_jerry {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  display: block;
+  height: 125px;
+  width: 125px;
+  background: url(TRbanner.gif) no-repeat;
+  text-indent: -999em;
+  text-decoration: none;
+}
+
 /********** ELEMENTS **********/
 
 form {
-  text-align: right;
+  text-align: center;
+}
+
+input {
+  min-width: 200px;
+}
+
+textarea {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+legend  {
+  text-align: center;
 }
 
 body {
@@ -28,8 +57,8 @@ body {
   font-family: sans-serif;
 }
 
-header {
-  text-align: right;
+header h1 {
+  text-align: center;
   text-decoration: none;
   margin-right: auto;
 }
@@ -37,6 +66,10 @@ header {
 h1  {
   margin-top: 100px;
   font-size: 3em;
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
 
