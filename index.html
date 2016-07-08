@@ -7,12 +7,73 @@
 <body background="http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg">
   <header>
     <ul>
-      <a href="https://en.wikipedia.org/wiki/Tom_and_Jerry"><li>Home</li></a>
-      <li>About</li>
-      <li>Links</li>
+      <nav>
+        <a href="https://en.wikipedia.org/wiki/Tom_and_Jerry"><li>Home</li></a>
+        <a href="https://en.wikipedia.org/wiki/Jerry_(given_name)"><li>About</li></a>
+        <a href="https://www.google.com/search?q=jerry&source=lnms&tbm=isch&sa=X&ved=0ahUKEwidhYCPieTNAhVKSiYKHarEAG4Q_AUICCgB"><li>Links</li></a>
+      </nav>
     </ul>
-    <h1>FAMOUS JERRYS OF THE WORLD</h1>
+    <h1>
+      <marquee>FAMOUS JERRYS OF THE WORLD</marquee>
+    </h1>
   </header>
+
+  <form action="">
+    <fieldset>
+      <label class="hidden" for="firstname">First Name</label>
+      <input type="text" required name="firstname" placeholder="first name" id="firstname">
+
+      <label class="hidden" for="email">e-mail</label>
+      <input type="email" required name="email" placeholder="example@example.com" id="email">
+
+      <label class="hidden" for="age">age</label>
+      <input type="number" required name="age" placeholder="how old are you?" min="13" id="age">
+
+
+      <label class="hidden" for="who do you think you are">i am</label>
+      <textarea placeholder="How are you, Jerry?" id="who do you think you are"></textarea>
+
+      <label class="hidden" for="website">Jer.com</label>
+      <input type="url" required placeholder="http://www.jeremiah.com" name="website" id="website">
+
+      <input type="text" name="country" value="GJEREVILLE USA" readonly>
+
+      <label class="hidden" for="favcolor">Favorite Color</label>
+      <input type="color" name="favcolor" id="favcolor">
+
+
+      <input type="submit" value="hit me" name="submit">
+
+    </fieldset>
+
+    <fieldset>
+
+      <label for="peanuts">Peanuts</label>
+      <input type="checkbox" id="peanuts" name="peanuts">
+
+      <label for="shellfish">Shellfish</label>
+      <input type="checkbox" id="shelffish" name="shellfish">
+
+      <label for="soy">Soy</label>
+      <input type="checkbox" id="soy"name="soy">
+
+      <label for="kiwis">Kiwis</label>
+      <input type="checkbox" id="kiwis "name="kiwis">
+
+    </fieldset>
+
+    <fieldset>
+      <label for="red">Red</label>
+      <input type="radio" value="red" name="rgb" id="red">
+
+      <label for="green">Green</label>
+      <input type="radio" value="green" name="rgb" id="green">
+
+      <label for="blue">Blue</label>
+      <input type="radio" value="blue" name="rgb" id="blue">
+
+    </fieldset>
+  </form>
 
   <article id="article_1">
     <header class="category">
