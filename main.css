@@ -8,7 +8,7 @@
   font-size: 3em;
   margin-top: 50px;
   margin-bottom: 25px;
-  border-style: solid;
+  border-style: dotted;
   border-radius: 10px;
   border-image: -webkit-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
   border-image: -ms-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
@@ -30,6 +30,14 @@
   background: url(TRbanner.gif) no-repeat;
   text-indent: -999em;
   text-decoration: none;
+}
+
+.spirit_jer {
+  margin-top: 20px;
+}
+
+.fav_jer {
+  margin-top: 20px;
 }
 
 /********** ELEMENTS **********/
