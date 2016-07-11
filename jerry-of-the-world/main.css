@@ -1,0 +1,132 @@
+/********** CLASSES **********/
+.hidden {
+  display: none;
+}
+
+.category h1{
+  text-align: center;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-style: dotted;
+  border-radius: 10px;
+  border-image: -webkit-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
+  border-image: -ms-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
+  border-image: -moz-linear-gradient(left, #E18728, #BE4C39 33%, #9351A6 66%, #4472B9,#4CA454,#D49B00) 33%;
+}
+
+.mainFooter {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tiny_jerry {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  display: block;
+  height: 125px;
+  width: 125px;
+}
+
+.spirit_jer {
+  margin-top: 20px;
+}
+
+.fav_jer {
+  margin-top: 20px;
+}
+
+/********** ELEMENTS **********/
+
+form {
+  text-align: center;
+
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  min-width: 200px;
+}
+
+textarea {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+legend  {
+  text-align: center;
+}
+
+body {
+  background-size: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  text-decoration: none;
+  margin-right: auto;
+}
+
+h1  {
+  margin-top: 100px;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h5 {
+  font-style: italic;
+}
+
+p {
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 20px;
+  border-width: 2px;
+}
+
+nav li{
+  display: inline-block;
+  font-size: 1.25em;
+  list-style: none;
+  margin-right: 5%;
+  text-decoration: none;
+  color: skyblue;
+}
+
+footer {
+  text-align: center;
+}
+
+/********** IMAGES **********/
+
+img {
+  max-width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+/********** LINKS **********/
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
