@@ -113,6 +113,7 @@ img {
   max-width: 75%;
   margin: 0 auto;
   display: block;
+  border-radius: 100%;
 }
 
 /********** LINKS **********/
